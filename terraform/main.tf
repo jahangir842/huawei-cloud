@@ -13,8 +13,6 @@ provider "huaweicloud" {
   secret_key = var.secret_key
 }
 
-
-
 resource "huaweicloud_vpc" "my_vpc" {
   name = "my-vpc"
   cidr = "192.168.0.0/16"
